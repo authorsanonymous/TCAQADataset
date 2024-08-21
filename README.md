@@ -13,7 +13,7 @@ If the article is accepted for publication, you can download our prepared TCAQA 
 **2.MTL-AQA dataset**(["Google Drive"](https://drive.google.com/file/d/1T7bVrqdElRLoR3l6TxddFQNPAUIgAJL7/))
 
 ### Training & Evaluation
-In this paper, we selected classic action quality assessment models such as ResNet-WD, USDL/MUSDL, and DAE as example models, and then integrated CoSL into each of these models, namely ResNet-WD-CoSL, USDL-CoSL, DAE-CoSL, and MUSDL-CoSL, aiming to improve the overall performance of the network by learning constraint information from score labels. Here,take **MUSDL-CoVL** as an example,To train and evaluate on TCAQA:
+In this paper, we selected classic action quality assessment models such as ResNet-WD, USDL/MUSDL, and DAE as example models, and then integrated CoSL into each of these models, namely ResNet-WD-CoSL, USDL-CoSL, DAE-CoSL, and MUSDL-CoSL, aiming to improve the overall performance of the network by learning constraint information from score labels. Here,take **MUSDL-CoSL** as an example,To train and evaluate on TCAQA:
 
 ` python -u main.py  --lr 1e-4 --weight_decay 1e-5 --gpu 0 `
 
